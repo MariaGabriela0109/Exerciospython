@@ -7,3 +7,4 @@ print(ma)
 print(mi)
 print(t)
 print(len(s[0].strip()))
+ 
