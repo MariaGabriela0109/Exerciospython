@@ -1,0 +1,6 @@
+d=float(input('Qual a distância da sua viagem em km?'))
+if d <=200:
+    preço=d*0.5
+else:
+    preço=d*0.45
+print('Você irá pagar R${:.2f}'.format(preço))

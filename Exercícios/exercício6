@@ -1,0 +1,4 @@
+nome=str(input('qual é o seu nome?')).upper().strip()
+if nome =='MARIA':
+    print('que nome lindo!')
+print('bom dia,{}'.format(nome))

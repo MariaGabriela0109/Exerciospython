@@ -1,0 +1,7 @@
+v=int(input('Digite a velocidade do carro:'))
+m=(v-80)*7
+if v<=80:
+    print('tenha um bom dia!')
+else:
+    print('você foi multado! A multa ficou em R${:.2f}'.format(m))
+    

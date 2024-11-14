@@ -1,0 +1,4 @@
+c=input('qual o nome da sua cidade?').strip()
+split= c.split()
+print('O nome da sua cidade começa com santo?')
+print('SANTO' in split[0].upper())

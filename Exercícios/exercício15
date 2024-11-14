@@ -1,0 +1,12 @@
+c = float(input('Digite o valor da casa:'))
+s = float(input('Digite seu salario:'))
+a = int(input('Em quantos anos deseja pagar:'))
+p = c / (a * 12)
+m = s * 30 / 100
+print('Para pagar uma casa de R${:.2f} em {} anos'.format(c, a), end=' ')
+print('A prestação será de R${:.2f}'.format(p))
+print('Tem que ser pago {:.2f} e o mínimo é de {:.2f}'.format(p, m))
+if p <= m:
+    print('Emprestimo concedido')
+else:
+    print('Emprestimo negado')

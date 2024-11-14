@@ -1,0 +1,6 @@
+n=int(input('Pensei em um número! Qual voce acha que é?'))
+if n ==5:
+    print('Parabéns, você acertou!')
+else:
+    print('Número errado, tente outra vez!')
+   

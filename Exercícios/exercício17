@@ -1,0 +1,8 @@
+p = float(input('Primeiro valor:'))
+s = float(input('Segundo valor:'))
+if p>s:
+    print('O primeiro valor é maior')
+elif s>p:
+    print('O segundo valor é maior')
+else:
+    print('Os valores são iguais')
