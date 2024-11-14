@@ -3,4 +3,4 @@ u=n//1%10
 d=n//10%10
 c=n//100%10
 m=n//1000%10
-print('A unidade é {}, dezena {}, centena {} e milhar {}'.format(u,d,c,m))
+print('A unidade é {}, dezena {}, centena {} e milhar {}'.format(u,d,c,m)) 
